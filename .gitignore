@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.ipynb_checkpoints/
+
+# OS / Pycharm files
+.idea/
+.DS_Store
+Thumbs.db
+
+# Results
+results/logs/
+results/models/
+results/retargeting/
+results/bvh/
+
+# Data
+data/mean_var/*.npy
+data/prepared/*.npy
+data/reference/*.bvh
+data/raw/_fbx
+data/raw/_noisy
