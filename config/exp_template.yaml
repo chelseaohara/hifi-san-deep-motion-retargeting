@@ -1,0 +1,29 @@
+DATA:
+  PREPROCESS: True # Can set to False once the preprocessing has been completed once for the dataset prep to save time
+  NUMBER_OF_GROUPS: 2
+  WINDOW_SIZE: 8
+  GROUPS:
+    - GROUP_A
+    - GROUP_B
+  GROUP_A:
+    - character: CharacterName01
+      type: A
+    - character: CharacterName02
+      type: A
+    - character: CharacterName03
+      type: A
+    - character: CharacterName04
+      type: A
+  GROUP_B:
+    - character: CharacterName05
+      type: B
+    - character: CharacterName06
+      type: B
+    - character: CharacterName07
+      type: B
+    - character: CharacterName08
+      type: B
+MODEL:
+  GAN_MODE: 'lsgan'
+TRAINING:
+  EXPERIMENT_NAME: rename_me

@@ -1,0 +1,13 @@
+# SKELETON MAPS
+# -------------
+TYPE:
+  A:
+    BONES:
+      - Bone01 # add all bones for Domain A Skeleton Type
+    END_EFFECTORS:
+      - Bone01 # add all end effectors for Domain A Skeleton Type
+  B:
+    BONES:
+      - Bone01
+    END_EFFECTORS:
+      - Bone01

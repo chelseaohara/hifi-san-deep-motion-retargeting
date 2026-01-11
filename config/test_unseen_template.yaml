@@ -1,0 +1,39 @@
+DATA:
+  WINDOW_SIZE: 8
+  RAW_DIR: './data/raw/forTest' # place unseen motion files in this subdirectory and update motions_unseen.yaml
+MODEL:
+  LATSZ: 128
+TEST:
+  NUMBER_OF_EPOCHS: 1000 # epoch to load from /results/models
+  CHARTYPE: B
+  CHARACTERS:
+    - CharacterName05
+    - CharacterName06
+    - CharacterName07
+    - CharacterName08
+  GROUPS:
+    - GROUP_A
+    - GROUP_B
+  # Number of characters in both groups must be the same for evaluation
+    # Can repeat characters in a group to force the evaluation one-to-many
+  GROUP_A:
+    - character: CharacterName01
+      type: A
+    - character: CharacterName02
+      type: A
+    - character: CharacterName03
+      type: A
+    - character: CharacterName04
+      type: A
+  GROUP_B:
+    - character: CharacterName05
+      type: B
+    - character: CharacterName06
+      type: B
+    - character: CharacterName07
+      type: B
+    - character: CharacterName08
+      type: B
+TRAINING:
+  IS_TRAINING: False
+  EXPERIMENT_NAME: ComplexSkeletonsUnseenTest

@@ -1,0 +1,3 @@
+# BVH file names for motions to include in unseen inference test
+FILES:
+  - Paddling.bvh
