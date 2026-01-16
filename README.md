@@ -7,7 +7,7 @@
 Codebase for the Winter-2025 USRA + Fall-2025 USRA project research by Chelsea O'Hara (Faculty of Engineering and Applied 
 Science, Memorial University of Newfoundland), supervised by Dr. Robert Gallant (School of Science and the Environment, 
 Grenfell Campus, Memorial University of Newfoundland). The companion paper <em>High Fidelity Skeleton Aware Networks</em> 
-can be viewed [here](). A supplementary video is also available on [YouTube](). (pending link publication)
+can be viewed [here](). A supplementary video is also available on [YouTube](https://www.youtube.com/watch?v=eqghurbjf1c).
 
 Building upon the Skeleton-Aware Network (SAN) framework established by [Aberman et al.](https://github.com/DeepMotionEditing/deep-motion-editing), 
 which utilizes skeletal pooling to reduce homeomorphic graphs into a common latent space, we propose 
